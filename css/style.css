@@ -77,7 +77,6 @@ strong { font-weight: var(--fw-bold) }
     text-decoration: none;
     cursor: pointer;
     font-size: .8rem;
-    text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: var(--fw-bold);
     transition: transform 200ms ease-in-out;
@@ -289,9 +288,9 @@ header {
 
 
 
-/* My services section */
+/* My skills section */
 
-.my-services {
+.my-skills {
     background-color: var(--clr-dark);
     background-image: url(../img/services-1.png);
     background-size: cover;
@@ -300,12 +299,12 @@ header {
 }
 
 
-.section__title--services {
+.section__title--skills {
     color: var(--clr-accent);
     position: relative;
 }
 
-.section__title--services::after {
+.section__title--skills::after {
     content: '';
     display: block;
     width: 2em;
@@ -315,24 +314,24 @@ header {
     opacity: 0.25;
 }
 
-.services {
+.skills {
     margin-bottom: 4em;
 }
 
-.service {
-    max-width: 500px;
+.skill {
+    max-width: 250px;
     margin: 0 auto;
 }
 
 @media (min-width: 800px) {
-    .services {
+    .skills {
         display: flex;
         max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .service + .service {
+    .skill + .skill {
         margin-left: 2em;
     }
 }
